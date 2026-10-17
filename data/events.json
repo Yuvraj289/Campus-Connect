@@ -1,0 +1,83 @@
+{
+  "colleges": [
+    { "id": "kcg", "name": "KCG College of Technology", "city": "Chennai", "verified": true },
+    { "id": "sairam", "name": "Sri Sairam Engineering College", "city": "Chennai", "verified": true },
+    { "id": "vit-chennai", "name": "VIT Chennai", "city": "Chennai", "verified": false },
+    { "id": "ssn", "name": "SSN College of Engineering", "city": "Chennai", "verified": true },
+    { "id": "psg", "name": "PSG College of Technology", "city": "Coimbatore", "verified": false }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "KCG Model United Nations 2026",
+      "college": "KCG College of Technology",
+      "collegeId": "kcg",
+      "category": "mun",
+      "date": "2026-07-19",
+      "venue": "KCG Main Auditorium",
+      "description": "Two-day conference with UNHRC, UNSC, and Lok Sabha committees. Delegates debate the Sahel humanitarian crisis, maritime security, and constitutional reform.",
+      "featured": true,
+      "registrationLink": "#"
+    },
+    {
+      "id": "e2",
+      "title": "Codeflux — 24hr Hackathon",
+      "college": "SSN College of Engineering",
+      "collegeId": "ssn",
+      "category": "hackathon",
+      "date": "2026-07-25",
+      "venue": "SSN Innovation Block",
+      "description": "Build and ship a working prototype in 24 hours. Tracks in fintech, climate, and campus tools. Cash prizes for top three teams.",
+      "featured": false,
+      "registrationLink": "#"
+    },
+    {
+      "id": "e3",
+      "title": "Sairam Cultural Fest — Tarang",
+      "college": "Sri Sairam Engineering College",
+      "collegeId": "sairam",
+      "category": "cultural",
+      "date": "2026-07-14",
+      "venue": "Sairam Open Grounds",
+      "description": "Three-day cultural festival featuring dance, music, and drama competitions, plus a closing concert.",
+      "featured": false,
+      "registrationLink": "#"
+    },
+    {
+      "id": "e4",
+      "title": "UI/UX Design Sprint Workshop",
+      "college": "VIT Chennai",
+      "collegeId": "vit-chennai",
+      "category": "workshop",
+      "date": "2026-07-10",
+      "venue": "VIT Design Lab",
+      "description": "Hands-on workshop covering user research, wireframing, and rapid prototyping in Figma. Beginners welcome.",
+      "featured": false,
+      "registrationLink": "#"
+    },
+    {
+      "id": "e5",
+      "title": "PSG Tech Fest — Innovision",
+      "college": "PSG College of Technology",
+      "collegeId": "psg",
+      "category": "fest",
+      "date": "2026-08-02",
+      "venue": "PSG Tech Campus",
+      "description": "Flagship technical fest with robotics, coding, and paper presentation events across engineering disciplines.",
+      "featured": false,
+      "registrationLink": "#"
+    },
+    {
+      "id": "e6",
+      "title": "Twyntra Presents: Founders' Night",
+      "college": "KCG College of Technology",
+      "collegeId": "kcg",
+      "category": "workshop",
+      "date": "2026-07-17",
+      "venue": "KCG Seminar Hall",
+      "description": "An evening of talks and networking for student founders and freelancers, hosted in partnership with Twyntra Events & Entertainments.",
+      "featured": false,
+      "registrationLink": "#"
+    }
+  ]
+}

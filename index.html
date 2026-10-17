@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampusConnect — Tamil Nadu Campus Wire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="masthead__top">
+      <span class="masthead__eyebrow">Tamil Nadu Campus Wire</span>
+      <span class="masthead__date" id="todayDate">—</span>
+    </div>
+    <h1 class="masthead__title">CampusConnect</h1>
+    <p class="masthead__tagline">Every fest, MUN, hackathon and workshop across Tamil Nadu colleges — in one place.</p>
+
+    <form class="masthead__search" id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search events, colleges, categories…" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+
+    <nav class="masthead__filters" id="categoryFilters">
+      <button class="filter-pill is-active" data-category="all">All</button>
+      <button class="filter-pill" data-category="fest">Fest</button>
+      <button class="filter-pill" data-category="mun">MUN</button>
+      <button class="filter-pill" data-category="hackathon">Hackathon</button>
+      <button class="filter-pill" data-category="workshop">Workshop</button>
+      <button class="filter-pill" data-category="cultural">Cultural</button>
+    </nav>
+  </header>
+
+  <!-- WIRE TICKER — signature element: live colleges publishing today -->
+  <div class="ticker">
+    <div class="ticker__label">On the wire today</div>
+    <div class="ticker__track" id="tickerTrack"><!-- populated by JS --></div>
+  </div>
+
+  <main class="main">
+
+    <!-- FEATURED STORY -->
+    <section class="featured" id="featuredSection">
+      <!-- populated by JS -->
+    </section>
+
+    <!-- LISTINGS -->
+    <section class="listings">
+      <div class="listings__header">
+        <h2>This Week's Listings</h2>
+        <span class="listings__count" id="resultCount">— events</span>
+      </div>
+      <div class="listings__grid" id="listingsGrid">
+        <!-- populated by JS -->
+      </div>
+      <p class="listings__empty" id="emptyState" hidden>No events match that search. Try a different college, category, or keyword.</p>
+    </section>
+
+    <!-- COLLEGE DIRECTORY -->
+    <section class="colleges">
+      <div class="colleges__header">
+        <h2>College Directory</h2>
+        <span class="colleges__sub">Currently publishing on CampusConnect</span>
+      </div>
+      <div class="colleges__grid" id="collegesGrid">
+        <!-- populated by JS -->
+      </div>
+    </section>
+
+    <!-- SUBMIT CTA -->
+    <section class="submit-cta">
+      <div class="submit-cta__inner">
+        <h2>Running an event?</h2>
+        <p>Submit it to CampusConnect and reach students across every participating college. Listings go live after a quick review.</p>
+        <a href="#" class="submit-cta__button" id="submitEventBtn">Submit an Event →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__wordmark">CampusConnect</span>
+      <span class="footer__meta">Built from KCG College of Technology · Tamil Nadu Edition</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
